@@ -14,7 +14,7 @@
 		<div id="footer-container">
 			<footer id="footer">
 				<?php do_action( 'foundationpress_before_footer' ); ?>
-				<?php dynamic_sidebar( 'footer-widgets' ); ?>
+				<?php dynamic_sidebar( 'footer-widgets' ); ?> 
 				<?php do_action( 'foundationpress_after_footer' ); ?>
 			</footer>
 		</div>
@@ -25,6 +25,7 @@
 		</div><!-- Close off-canvas wrapper inner -->
 	</div><!-- Close off-canvas wrapper -->
 </div><!-- Close off-canvas content wrapper -->
+</div>
 <?php endif; ?>
 
 

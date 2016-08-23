@@ -13,7 +13,7 @@ var del         = require('del');
 
 // Enter URL of your local server here
 // Example: 'http://localwebsite.dev'
-var URL = '';
+var URL = 'http://192.168.5.22/stjohn/wp-content/themes/FoundationPress/';
 
 // Check for --production flag
 var isProduction = !!(argv.production);
@@ -31,6 +31,7 @@ var PATHS = {
     'assets/components/foundation-sites/scss',
     'assets/components/motion-ui/src',
     'assets/components/fontawesome/scss',
+	
   ],
   javascript: [
     'assets/components/what-input/what-input.js',

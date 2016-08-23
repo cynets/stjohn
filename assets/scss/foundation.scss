@@ -21,6 +21,27 @@
 @import 'font-awesome';
 @import 'motion-ui';
 
+//Ubuntu Condensed
+@import 'https://fonts.googleapis.com/css?family=Ubuntu+Condensed';
+
+//Roboto Condensed
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+
+//Slabo 27px
+@import 'https://fonts.googleapis.com/css?family=Slabo+27px';
+
+//Dancing Script
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script|Slabo+27px';
+
+//Courgette
+@import 'https://fonts.googleapis.com/css?family=Courgette';
+
+//Harmattan
+@import 'https://fonts.googleapis.com/css?family=Courgette|Harmattan';
+
+//Open Sans
+@import 'https://fonts.googleapis.com/css?family=Courgette|Harmattan|Open+Sans';
+
 // Foundation global styles
 @include foundation-global-styles;
 
@@ -94,3 +115,4 @@
 @import "templates/page-sidebar-left";
 @import "templates/page-full-width";
 @import "templates/single-post";
+@import "typography/base";

@@ -49,3 +49,10 @@ require_once( 'library/responsive-images.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/protocol-relative-theme-assets.php' );
+
+// by dinesh
+add_action('wp_footer', 'your_function_name');
+function your_function_name() {
+   wp_enqueue_script('Equalizer',  'http://192.168.5.22/stjohn/wp-content/themes/FoundationPress/assets/components/foundation-sites/js/foundation.equalizer.js');
+}
+
